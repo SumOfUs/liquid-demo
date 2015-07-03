@@ -1,0 +1,9 @@
+<div class='layout'>
+  <section class='body'>
+    <h4>{{ campaign.body.title }}</h4>
+    {{ campaign.body.description | textilize  }}
+  </section>
+  <div class='media'>
+    <img src='{{ campaign.media.src }}' />
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<%= form_tag(generate_path) do %>
+  <%= text_area_tag 'content', @content %>
+  <p>
+    <%= submit_tag %>
+  </p>
+<%- end %>
+
+
+<div id="rendered">
+  <%= @rendered_content %>
+</div>

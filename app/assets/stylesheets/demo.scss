@@ -1,0 +1,23 @@
+textarea {
+  width: 700px;
+  height: 300px;
+}
+
+.layout {
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  width: 80%;
+  color: #333;
+  font-family: verdana;
+
+  .media {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    img {
+      border: 1px solid black;
+      padding: 3px;
+      width: 100%
+    }
+  }
+}
